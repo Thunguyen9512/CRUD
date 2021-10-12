@@ -1,12 +1,10 @@
-import React, { Suspense } from 'react';
-import ReactDOM, { render } from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 import { StoreProvider as Provider } from 'easy-peasy';
+import React, { Suspense } from 'react';
+import { render } from 'react-dom';
 import store from 'Store';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { ROUTERS } from 'Constants';
+import '../node_modules/font-awesome/css/font-awesome.min.css';
+import "./Styles/index.scss";
+
 
 const Routers = React.lazy(() => import("./Routers"));
 

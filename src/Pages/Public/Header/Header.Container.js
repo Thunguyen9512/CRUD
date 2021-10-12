@@ -1,10 +1,17 @@
 import React from "react";
 
-import './Header.Container.css'
+import "./Header.Container.css";
 const Header = () => {
-  return <header>
-    <h1>HEADER</h1>
-  </header>;
+  return (
+    <header>
+      <div className="header-container">
+        <h1>
+          <i class="fas fa-check"></i>Task List
+        </h1>
+        <p>Use this template to track your personal tasks.</p>
+        <p>Click an existing task to add additional context or subtasks.</p>
+      </div>
+    </header>
+  );
 };
-
 export default Header;

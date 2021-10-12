@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 
 import { Header, Home } from "Pages";
 
@@ -13,6 +13,7 @@ const Root = () => {
       <Header />
       <Router>
         <Switch>
+          <Redirect exact from="/" to={ROUTERS.Home} />
           <Route exact path={ROUTERS.Home}>
             <Home />
           </Route>

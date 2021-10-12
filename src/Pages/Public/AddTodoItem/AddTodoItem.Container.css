@@ -1,0 +1,16 @@
+.add-container {
+    position: relative;
+    margin: 5px;
+
+    background-color: white;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+}
+
+.add-container form {
+    margin: 10px 5px;
+}
+
+.add-container .add-button:hover {
+    background-color: rgba(67, 45, 95, 0.8);
+}

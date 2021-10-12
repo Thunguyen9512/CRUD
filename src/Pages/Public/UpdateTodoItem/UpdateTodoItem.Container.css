@@ -1,0 +1,28 @@
+.todo-item {
+    position: relative;
+    height: 70px;
+    margin: 5px;
+
+    border: solid 1px #000;
+    border-radius: 3px;
+}
+
+.todo-item h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.todo-item .description-block {
+    display: flex;
+}
+
+.description-block .description-item {
+    margin: 0 5px;
+}
+
+.todo-item button {
+    position: absolute;
+
+    top: 5px;
+    right: 5px;
+}
