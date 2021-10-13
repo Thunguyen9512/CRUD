@@ -6,7 +6,7 @@ const Header = () => {
     <header>
       <div className="header-container">
         <h1>
-          <i class="fas fa-check"></i>Task List
+          <i className="fas fa-check"></i>Task List
         </h1>
         <p>Use this template to track your personal tasks.</p>
         <p>Click an existing task to add additional context or subtasks.</p>
